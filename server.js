@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 
 // Enable CORS for all routes
 const corsOptions = {
-   origin: 'https://srisairamcrackers.netlify.app', // restrict to this specific domain
+   origin: ['https://sri-sairam-crackers.web.app/','http://localhost:3000','https://sri-sairam-crackers.firebaseapp.com/','https://www.srimaheswarigroupofcompanies.in/','https://srisairamcrackers.netlify.app/'], // restrict to this specific domain
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // limit allowed HTTP methods
   credentials: true, // enable cookies if necessary
   optionsSuccessStatus: 200 // response for successful OPTIONS request
